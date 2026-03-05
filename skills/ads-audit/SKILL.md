@@ -22,8 +22,13 @@ description: >
    - `audit-tracking` — LinkedIn, TikTok, Microsoft tracking + cross-platform tracking health
    - `audit-budget` — LinkedIn, TikTok, Microsoft budget/bidding + cross-platform allocation
    - `audit-compliance` — All-platform compliance, settings, performance benchmarks
-5. **Score** — calculate per-platform and aggregate Ads Health Score (0-100)
-6. **Report** — generate prioritized action plan with Quick Wins
+4b. **Delegate website audit subagents** in parallel (if website URL provided):
+   - `audit-website-seo` — SEO on-page, technical SEO, structured data (S01-S27)
+   - `audit-website-performance` — Core Web Vitals, page speed, caching, mobile (P01-P24)
+   - `audit-website-ux` — Navigation, CTA quality, trust signals, forms, accessibility (U01-U27, A01-A08)
+   - `audit-website-technical` — Security, analytics, ad pixels, crawlability (T01-T25)
+5. **Score** — calculate per-platform Ads Health Score (0-100) + Website Health Score (0-100)
+6. **Report** — generate prioritized action plan with Quick Wins for both ads and website
 
 ## Data Collection
 
@@ -62,6 +67,7 @@ Grade: A (90-100), B (75-89), C (60-74), D (40-59), F (<40)
 - `ADS-AUDIT-REPORT.md` — Comprehensive multi-platform findings
 - `ADS-ACTION-PLAN.md` — Prioritized recommendations (Critical > High > Medium > Low)
 - `ADS-QUICK-WINS.md` — Items fixable in <15 minutes with high impact
+- `WEBSITE-AUDIT-REPORT.md` — Full website audit (SEO, Performance, UX, Technical)
 
 ## Report Structure
 

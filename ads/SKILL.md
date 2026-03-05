@@ -149,9 +149,17 @@ This skill orchestrates 12 specialized sub-skills:
 ## Subagents
 
 For parallel analysis during full audits:
+
+**Ads Audit Subagents (6):**
 - `audit-google` — Google Ads checks (G01-G74)
 - `audit-meta` — Meta Ads checks (M01-M46)
 - `audit-creative` — Creative quality for LinkedIn, TikTok, Microsoft
 - `audit-tracking` — Conversion tracking health across all platforms
 - `audit-budget` — Budget, bidding, structure for LinkedIn, TikTok, Microsoft
 - `audit-compliance` — Compliance, settings, performance across all platforms
+
+**Website Audit Subagents (4):**
+- `audit-website-seo` — SEO on-page, technical SEO, structured data (S01-S27)
+- `audit-website-performance` — Core Web Vitals, page speed, caching, mobile (P01-P24)
+- `audit-website-ux` — Navigation, CTA, trust signals, forms, accessibility (U01-U27, A01-A08)
+- `audit-website-technical` — Security, analytics, ad pixels, crawlability (T01-T25)
